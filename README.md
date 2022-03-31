@@ -15,8 +15,9 @@ Use the following commands to:
 ### Resolving "non-fast-forward" errors
  If do not have the most recent version of the remote repository, the "non-fast-forward updates were rejected" message appears. This message indicates that your local branch does not contain all the commits on the remote branch. When this message appears, you must sync your local branch with the remote branch using either the `git pull` or the `git fetch` and `git merge` commands described below.
 ## Pulling from a remote repository
- `git pull` performs a `git fetch` followed immediately by `git merge`. If you need to check changes before merging to your branch, use the `git fetch` and `git merge` commands described below.
+ `git pull` performs a `git fetch` followed immediately by `git merge`. If you need to check changes before merging to your branch, use the `git fetch` and `git merge` commands separately, as described below.
 ## Fetching from a remote repository
 `git fetch` takes your current branch and checks to see if there is a tracking branch. If there is an associated tracking branch, it looks for changes in the remote branch and pulls them into the tracking branch. It does not change your local branch. To merge changes to your local branch, use the `git fetch` command described below.
 ## Merging with a remote repository
+`git merge` merges the changes from the `git fetch` command described above. You would most likely need this command to merge changes made by others with changes you made to your local branch.
  To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".
