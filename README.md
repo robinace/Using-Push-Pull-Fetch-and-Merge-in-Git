@@ -1,6 +1,5 @@
 # Using Push Pull and Fetch in Git
- Define git push pull fetch commands and describe when to use each
- ## Content
+ This guide defines the git push, git pull, and git fetch commands and describes the differences between each. After reading this guide, you will be able to choose which command best fits your needs when merging branches.
 
  ### What is the difference between push, pull, and fetch?
 
