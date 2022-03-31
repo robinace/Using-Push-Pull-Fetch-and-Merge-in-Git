@@ -1,5 +1,5 @@
 # Using Push, Pull, Fetch, and Merge in Git
- This guide defines the git push, git pull, git fetch, and git merge commands and describes the differences between each. After reading this guide, you will be able to choose which command best fits your needs when merging branches.
+ This guide defines the `git push`, `git pull`, `git fetch`, and `git merge` commands and describes the differences between each. After reading this guide, you will be able to choose which command best fits your needs when pushing changes to or getting changes from a repository.
 ## Prerequisites
 Before you begin, review the concepts in the following guides if needed:
 - Creating and Using Repositories [xref]
@@ -20,4 +20,5 @@ Use the following commands to:
 `git fetch` takes your current branch and checks to see if there is a tracking branch. If there is an associated tracking branch, it looks for changes in the remote branch and pulls them into the tracking branch. It does not change your local branch. To merge changes to your local branch, use the `git fetch` command described below.
 ## Merging with a remote repository
 `git merge` merges the changes from the `git fetch` command described above. You would most likely need this command to merge changes made by others with changes you made to your local branch.
- 
+## Next steps
+This guide describes the differences between the push, pull, fetch, and merge commands so that you can best decide how to commit changes to a remote repository (`git push`) or get changes from a remote repository to your local branch (`git pull` or `git fetch` plus `git merge`).
