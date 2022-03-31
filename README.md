@@ -13,10 +13,9 @@ Use the following commands to:
 ## Pushing to a remote repository
  `git push` makes the remote branch look like your local branch. First, the push commands checks to see whether or not there is a tracking branch for a remote repository connected to it. If there is an associated tracking branch, your changes are pushed from your branch to the remote branch.
 ### Resolving "non-fast-forward" errors
- If do not have the most recent version of the remote repository, the "non-fast-forward updates were rejected" message appears. This message indicates that your local branch does not contain all the commits on the remote branch. When this message appears, you must sync your local branch with the remote branch using either the git pull or the git fetch and git merge commands described below.
+ If do not have the most recent version of the remote repository, the "non-fast-forward updates were rejected" message appears. This message indicates that your local branch does not contain all the commits on the remote branch. When this message appears, you must sync your local branch with the remote branch using either the `git pull` or the `git fetch` and `git merge` commands described below.
 ## Pulling from a remote repository
- `git pull` performs a `git fetch` followed immediately by `git merge`. If you need to check changes before merging to your branch, use the git fetch and git merge commands described below.
- 
+ `git pull` performs a `git fetch` followed immediately by `git merge`. If you need to check changes before merging to your branch, use the `git fetch` and `git merge` commands described below. 
 ## Fetching from a remote repository
 `git fetch` again takes our current branch, and checks to see if there is a tracking branch. If so, it looks for changes in the remote branch, and pulls them into the tracking branch. It does not change your local branch.
 
