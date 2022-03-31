@@ -20,4 +20,4 @@ Use the following commands to:
 `git fetch` takes your current branch and checks to see if there is a tracking branch. If there is an associated tracking branch, it looks for changes in the remote branch and pulls them into the tracking branch. It does not change your local branch. To merge changes to your local branch, use the `git fetch` command described below.
 ## Merging with a remote repository
 `git merge` merges the changes from the `git fetch` command described above. You would most likely need this command to merge changes made by others with changes you made to your local branch.
- To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".
+ 
