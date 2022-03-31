@@ -5,7 +5,7 @@ Before you begin, review the concepts in the following guides if needed:
 - Creating and Using Repositories [xref]
 - Creating and Merging Branches [xref]
  ## What is the difference between push, pull, and fetch?
-
+Use the following commands to:
  - `git push` - sent changes from a local branch to a remote repo
  - `git fetch` - get changes from a remote repo into your tracking branch
  - `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
