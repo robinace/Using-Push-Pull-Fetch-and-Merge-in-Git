@@ -22,3 +22,7 @@ Use the following commands to:
 `git merge` merges the changes from the `git fetch` command described above. You would most likely need this command to merge changes made by others with changes you made to your local branch.
 ## Next steps
 This guide describes the differences between the push, pull, fetch, and merge commands so that you can best decide how to commit changes to a remote repository (`git push`) or get changes from a remote repository to your local branch (`git pull` or `git fetch` plus `git merge`).
+
+For more information about these commands, see the following guides on GitHub:
+https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository
+https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository
