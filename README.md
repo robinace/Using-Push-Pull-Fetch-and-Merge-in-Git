@@ -17,7 +17,6 @@ Use the following commands to:
 ## Pulling from a remote repository
  `git pull` performs a `git fetch` followed immediately by `git merge`. If you need to check changes before merging to your branch, use the `git fetch` and `git merge` commands described below.
 ## Fetching from a remote repository
-`git fetch` takes your current branch and checks to see if there is a tracking branch. If there is an associated tracking branch, it looks for changes in the remote branch and pulls them into the tracking branch. It does not change your local branch.
-
+`git fetch` takes your current branch and checks to see if there is a tracking branch. If there is an associated tracking branch, it looks for changes in the remote branch and pulls them into the tracking branch. It does not change your local branch. To merge changes to your local branch, use the `git fetch` command described below.
 ## Merging with a remote repository
  To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".
