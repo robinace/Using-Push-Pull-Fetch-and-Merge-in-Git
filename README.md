@@ -1,6 +1,9 @@
 # Using Push Pull and Fetch in Git
  This guide defines the git push, git pull, and git fetch commands and describes the differences between each. After reading this guide, you will be able to choose which command best fits your needs when merging branches.
-
+## Prerequisites
+Before you begin, review the concepts in the following guides if needed:
+- Creating and Using Repositories [xref]
+- Creating and Merging Branches [xref]
  ### What is the difference between push, pull, and fetch?
 
  - `git push` - sent changes from a local branch to a remote repo
